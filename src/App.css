@@ -2,3 +2,18 @@
   text-align: center;
   margin: 30px 0;
 }
+.Dictionary {
+  margin: 50px 0px;
+  padding: 0px;
+  text-align: center;
+}
+.Results {
+  margin: 30px;
+  padding: 0px;
+  text-align: center;
+}
+.Meaning {
+  margin: 20px 0px;
+  padding: 0px;
+  text-align: center;
+}
