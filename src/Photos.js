@@ -12,7 +12,7 @@ export default function Photos(props) {
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photo.src.tiny}
-                    alt="image of word searched"
+                    alt={photo.src.photographer}
                     className="img-fluid"
                   />
                 </a>
