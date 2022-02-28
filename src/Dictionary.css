@@ -32,7 +32,7 @@
 .Dictionary section {
   background: white;
   padding: 30px;
-  border-radius: 6px;
+  border-radius: 30px;
   margin: 20px 0;
 }
 
@@ -44,7 +44,10 @@
   border: 1px solid #ddd;
 }
 .Dictionary .hint {
-  font-size: 11px;
+  font-size: 13px;
   margin-top: 18px;
   font-family: "Syne Mono", monospace;
+}
+.onSubmit {
+  background-image: url("./images/open-book-pages.jpeg");
 }

@@ -9,6 +9,9 @@ export default function Dictionary(props) {
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
+  let [backgroundImage, setBackgroundImage] = useState(
+    "./images/dictionary-cover.jpeg"
+  );
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
@@ -33,6 +36,7 @@ export default function Dictionary(props) {
   function handleSubmit(event) {
     event.preventDefault();
     search();
+    setBackgroundImage(`./images/open-book-pages.jpeg`);
   }
 
   function handleKeywordChange(event) {

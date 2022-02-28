@@ -1,6 +1,5 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
-import background from "./images/dictionary-cover.jpeg";
 
 export default function App() {
   return (

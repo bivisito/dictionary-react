@@ -5,14 +5,13 @@
 
 /* /content: ""; */
 body {
-  background-image: url("./images/dictionary-cover.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 body:after {
   content: "";
   background-image: url("./images/dictionary-cover.jpeg");
-  opacity: 0.5;
+  opacity: 0.75;
   top: 0;
   left: 0;
   bottom: 0;
