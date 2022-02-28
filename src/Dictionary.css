@@ -1,5 +1,5 @@
 .Dictionary {
-  max-width: 960px;
+  max-width: 660px;
   margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@
   padding: 30px;
   border-radius: 30px;
   margin: 20px 0;
+  opacity: 0.95;
 }
 
 .Dictionary input {
@@ -47,7 +48,4 @@
   font-size: 13px;
   margin-top: 18px;
   font-family: "Syne Mono", monospace;
-}
-.onSubmit {
-  background-image: url("./images/open-book-pages.jpeg");
 }
