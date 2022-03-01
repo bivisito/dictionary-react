@@ -1,6 +1,7 @@
 .Examples {
   color: #70757a;
-  font-style: italic;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Roboto Serif", sans-serif;
+  font-weight: 200;
 }

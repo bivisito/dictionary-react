@@ -5,6 +5,10 @@
   font-family: "Space Mono", monospace;
 }
 
+.definition {
+  font-family: "Roboto Serif", sans-serif;
+}
+
 .Meaning ul {
   list-style-type: square;
 }
