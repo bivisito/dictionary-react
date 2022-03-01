@@ -55,7 +55,7 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
-              defaultValue={props.defaultKeyboard}
+              defaultValue={props.defaultKeyWord}
             />
           </form>
           <div className="hint">i.e. yoga, book, happiness, beach</div>
