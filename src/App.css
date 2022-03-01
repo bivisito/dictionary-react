@@ -3,8 +3,12 @@ body {
 }
 
 .App-footer {
+  margin-top: 10px;
   text-align: center;
   margin: 30px 0;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Syne Mono", monospace;
 }
 
 .container {

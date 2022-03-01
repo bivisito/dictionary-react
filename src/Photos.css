@@ -5,9 +5,9 @@
 .thumbnail:hover {
   position: relative;
   top: -25px;
-  left: -35px;
-  width: 500px;
-  height: auto;
+  left: -10px;
+  width: 520px;
+  height: 160px;
   display: block;
   z-index: 999;
 }
